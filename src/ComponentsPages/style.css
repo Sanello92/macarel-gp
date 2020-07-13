@@ -1,0 +1,83 @@
+
+.body-page {
+    background: url(/img/back.png) no-repeat !important;
+    background-size: cover !important;
+    height: 100%;
+}
+
+/*header*/
+
+.header-page {
+  text-align: center;
+  padding: 50px 0;
+  font-family: "Montserrat", sans-serif;
+}
+.header__title {
+  font-family: "Comfortaa", cursive;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 64px;
+  color: #7ca38d;
+}
+.header__title__paragraph {
+  text-align: center;
+  padding: 0 20%;
+  margin-top: 30px;
+  text-align: center;
+}
+
+.pie-size {
+  margin-top: 40px;
+  
+  font-family: "Montserrat", sans-serif;
+  flex-direction: column;
+}
+.pie-size__span {
+  font-size: 48px;
+}
+
+.product {
+  color: #7ca38d;
+  text-align:center;
+  padding: 40px;
+}
+.product__block {
+  margin-top: 40px;
+  margin-left: 40px;
+}
+.product__block__img {
+  width: 48%;
+  order: 1;
+}
+.product__block__img img {
+  margin-bottom: 5px;
+}
+.product__block__img span {
+  margin-left: 10px;
+  font-weight: 500;
+  font-size: 1.2rem;
+  font-family: "Montserrat", sans-serif;
+  color:#3A0E0E;
+}
+.product__block__text {
+  justify-content: center;
+  width: 48%;
+  order: 2;
+}
+.product__block__text p {
+  margin-left: 30px;
+  text-align: left;
+  font-family: "Montserrat", sans-serif;
+  color:#3A0E0E;
+}
+.mac-clider-row {
+  margin-top: 100px;
+  padding-bottom: 70px;
+}
+.macaron-slider {
+  padding: 30px;
+}
+.slick-list {
+  width: 90%;
+  margin: 40px auto;
+}

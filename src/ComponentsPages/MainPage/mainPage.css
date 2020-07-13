@@ -1,0 +1,232 @@
+.body-mainPage {
+  background: url(/img/background-main-page.png), #fffcf1;
+}
+
+/*header*/
+.header {
+  background: url(/img/bg-mainpage-1.png), #fffcf1 no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+/*product*/
+.section-product {
+  height: 100vh;
+}
+
+.section-name {
+  font-family: "Comfortaa", cursive;
+  font-size: 64px;
+  text-align: center;
+  color: #3a0e0e;
+  padding: 127px 0 20px 0;
+}
+
+/* about us */
+.section-about-us {
+  padding-top: 50px;
+  margin-top: 10%;
+}
+
+.section-about-us__img {
+  max-width: 1560px;
+  height: 682px;
+  background-size: 100%;
+  background: url(/img/section-about-us-img.png) no-repeat 50%;
+  border: 10px solid rgba(255, 255, 255, 0.5);
+  box-sizing: border-box;
+  box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.25);
+}
+
+.section-about-us__text {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 17px;
+  margin: 80px auto 0 auto;
+  width: 900px;
+  height: 130px;
+  text-align: center;
+  color: #3a0e0e;
+}
+
+/* how-we-work */
+.section-how-we-work {
+  padding-top: 50px;
+}
+
+.ordering-methods {
+  text-align: center;
+}
+
+.order-method {
+  width: 377px;
+  height: 432px;
+  background: #e7d9ce;
+  border-radius: 50px;
+  display: inline-block;
+  float: none;
+  vertical-align: middle;
+  margin: 20px 100px 10px 50px;
+}
+.order-method__stroke {
+  width: 341px;
+  height: 394px;
+  border: 2px solid #ffffff;
+  box-sizing: border-box;
+  border-radius: 50px;
+  margin: 18px 17px 20px 19px;
+}
+.order-method__img {
+  margin: 33px 120px 0 121px;
+}
+.order-method__name {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  text-align: center;
+  color: #3a0e0e;
+  margin: 20px 59px 20px 57px;
+}
+.order-method__description {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  text-align: center;
+  color: #3a0e0e;
+  margin: 0 22px 44px 19px;
+}
+.order-method__description__li {
+  text-align: center;
+}
+
+/* our-secret */
+
+.section-our-secret-area{
+  margin-top: 100px;
+  background: #E7D9CE;
+  padding-bottom: 100px;
+}
+
+.section-our-secret__text {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  text-align: center;
+  color: #3a0e0e;
+}
+
+.our-secret {
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+.secret {
+  text-align: center;
+  width: 310px;
+  height: 400px;
+  display: inline-block;
+  float: none;
+  vertical-align: middle;
+  margin: 20px 65px 10px 0;
+}
+.secret__name {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-weight: 600;
+  font-size: 24px;
+  text-align: center;
+  color: #3a0e0e;
+}
+.secret__text {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  text-align: center;
+}
+
+/* contact-us */
+.section-contact-us {
+  max-height: 100vh;
+  padding-bottom: 120px;
+}
+
+.contact-us__img{
+  display: inline-block;
+  height: auto;
+  max-width: 100%;
+  margin-bottom: 126px;
+}
+
+.contact-us__info-text {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  color: #3a0e0e;
+  padding-bottom: 40px;
+}
+
+.contact-us__contact-name {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-weight: 600;
+  font-size: 24px;
+  color: #3a0e0e;
+}
+
+.contact-us__contact-info {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  color: #3a0e0e;
+}
+
+.fabCu {
+  font-size: 40px;
+  color: #b09695;
+  margin-left: 15px;
+  opacity: 0.6;
+}
+.fabCU:hover {
+  opacity: 1;
+  color: #b09695;
+  transition: all 0.7s;
+}
+
+.contUs {
+  color: #b09695;
+  opacity: 0.6;
+}
+
+.contUs:hover {
+  color: #b09695;
+  opacity: 1;
+  transition: all 0.7s;
+}
+
+/* reviews */
+
+.section-reviews{
+  background:url(/img/bg-reviews.png) no-repeat;
+  padding-top: 130px;
+}
+
+.reviews {
+  background: #eee7e6;
+  margin: 0 auto 0 auto;
+  border: 10px solid rgba(255, 255, 255, 0.5);
+  box-sizing: border-box;
+  box-shadow: 0px -5px 40px rgba(0, 0, 0, 0.25);
+  max-width: 1350px;
+  height: 590px;
+}

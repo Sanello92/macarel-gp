@@ -1,0 +1,10 @@
+/* .slick-prev:before {
+    content: url(/img/prev.png) !important;
+    margin-right: 50px !important;
+}
+.slick-next:before {
+    content: url(/img/next.png) !important;
+} */
+.candy-slider img {
+    width: 70% !important;
+}

@@ -1,0 +1,29 @@
+/*menu-bar*/
+
+.menu-bar {
+  background: #b09695;
+  padding: 20px 0 20px 0;
+}
+
+ul,
+li {
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+
+.menu__item {
+  margin-left: 20px;
+}
+
+.menu__item a {
+  font-family: 'Comfortaa', cursive;
+  font-weight: normal;
+  color: #ffffff;
+  font-size: 18px;
+}
+.menu__item a:hover {
+  text-decoration: none;
+  color: #3a0e0e;
+  transition: all 0.5s;
+}
